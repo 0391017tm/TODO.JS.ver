@@ -1,5 +1,3 @@
-import "./styles.css";
-
 const onClickAdd = () => {
   //入力された文字の取得と初期化
   const inputText = document.querySelector("#add-text").value;
