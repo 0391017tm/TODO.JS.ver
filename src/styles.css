@@ -1,3 +1,51 @@
 body {
   font-family: sans-serif;
+  margin: 0 auto;
+}
+
+input {
+  border: none;
+  border-radius: 15px;
+  padding: 8px;
+}
+button {
+  border: none;
+  margin: 5px;
+  background-color: white;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+p {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.input-content {
+  background-color: rgb(162, 232, 235);
+  height: 30px;
+  font-weight: 400px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.imcomplete-content {
+  background-color: rgb(191, 236, 146);
+  min-height: 200px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.complete-content {
+  background-color: rgb(228, 212, 174);
+  min-height: 200px;
+  padding: 10px;
+  margin: 5px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
 }
