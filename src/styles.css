@@ -45,7 +45,7 @@ p {
   margin: 5px;
 }
 
-ul {
+.list-row {
   display: flex;
   align-items: center;
 }
